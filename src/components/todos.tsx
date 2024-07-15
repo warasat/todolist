@@ -29,7 +29,7 @@ const Todos = () => {
                 onChange={() => toggleTodoAsCompleted(todo.id)}
               />
 
-              <label className="line-through" htmlFor={`todo-${todo.id}`}>
+              <label className="" htmlFor={`todo-${todo.id}`}>
                 {" "}
                 {todo.task}{" "}
               </label>
